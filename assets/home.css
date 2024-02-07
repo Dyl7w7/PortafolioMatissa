@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Quicksand:wght@300&display=swap');
+
+body {
+    background-image: url('../assets/images/logo2.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-position-y: top;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    font-family: 'Merienda';
+}
+
+.merienda {
+    font-family: 'Merienda';
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.searchDiv {
+    width: 75%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.searchBar {
+    width: 100%;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px 0px;
+
+}
+
+.btns-login {
+    display: block;
+}
+
+
+@media screen and (max-width: 450px) {
+    .btns-login {
+        display: none;
+    }
+}
