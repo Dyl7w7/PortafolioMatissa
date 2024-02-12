@@ -45,6 +45,11 @@ h1 {
     display: block;
 }
 
+.image:hover{
+    width: 36%;
+    transition: 0.2s;
+}
+
 
 @media screen and (max-width: 450px) {
     .btns-login {
